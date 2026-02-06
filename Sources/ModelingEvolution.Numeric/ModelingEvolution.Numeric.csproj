@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>ModelingEvolution Team</Authors>
+    <Copyright>ModelingEvolution</Copyright>
+    <RepositoryUrl>https://github.com/modelingevolution/numeric.git</RepositoryUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>MovingAverage, Numeric, Math, Generic, Statistics</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Generic numeric utilities for .NET: MovingAverage and more.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
